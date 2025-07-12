@@ -206,3 +206,34 @@ footer {
   margin-top: 30px;
   color: #aaa;
 }
+/* Responsive Mobile Font Sizes */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px; /* Reduce your name size */
+  }
+
+  .hero p {
+    font-size: 16px; /* Aspiring Engineer text */
+  }
+
+  .hero h2 {
+    font-size: 20px; /* ECE Engineer */
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .navbar .logo {
+    font-size: 20px;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+}
